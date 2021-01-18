@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Active Click The Pic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>  
+ 
+<! –– 1-How to play? interface  ––>
+   <div class="instructions hide">  
+        
+        <div class="theme-switch-wrapper">
+            <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox" />
+                <div class="slider round"></div>
+            </label>
+            <p>Enable dark mode</p>
+        </div>
+
+
+        <div class="s-1 align-center active-pic">
+            <div class="first">
+             	<h1>
+            	    <span class="pink">Active <br></span>
+                	<span class="green">Click<br></span>
+                	<span class="yellow">The Pic.. <br></span>
+            	</h1>
+            </div>
+	   <div class="third">
+               <img src="./'+getRandomInt(1,5)+'.gif" alt=" " width="280" height ="274" >            
+           </div> 
+           </div>
+
+
+        <div class="s-1 align-center intro">
+            <p>
+                Given a word, click on the corresponding image. Do it quickly before the time ends! <br>
+                Pay attention: if you click on the wrong pic the timer will decrease!
+            </p>
+        </div>
+
+        <div class="s-1 align-center start-button">
+
+            <a href="#">Click or press space to start</a>
+        </div>
+    </div>
+
+<! –– 2 game window  ––>
+
+        <div class="game hide">
+        <header class="s-1 align-center">
+            <div class="time"><span></span></div>
+            <div class="score">Score: <span></span></div>
+            <div class="quit">
+                <a href="#">Quit</a>
+            </div>
+        </header>
+
+        <div class="align-center board">
+        </div>
+        <div class="s-1 align-center word-cont">
+            <div class="word"></div>
+            <div class="dropdown">
+                <button>Choose a language</button>
+                <div class="langWrap">
+                    <a href="#" language="english" class="active">English</a>
+                    <a href="#" language="hindi">Hindi</a>
+                </div>
+                 <button>Choose Time</button>
+               </div>
+             
+        </div>
+    </div>
+
+<! ––  Score window  ––>
+
+    <div class="game-over hide">
+        <div class="s-1 align-center find-the-pic">
+            <h1><span class="pink">Your <br></span>
+                <span class="green">score <br></span>
+                <span class="yellow">is... <br></span></h1>
+        </div>
+        <div class="align-center scores">
+            <div class="total-score"></div>
+            <div class="high-score">Your highest score is <span></span>!</div>
+        </div>
+        <div class="s-1 align-center over-footer">
+            <a href="#" class="play-again">Click or press space to play again</a>
+            <a class="home" href="#">Home</a>
+
+        </div>
+    </div>
+    </div>
+
+    <script src="./source/database.js"></script>
+    <! –– script for game icon class and handlers  ––>
+    <script src="./source/icon.js"></script>
+    <script src="./source/Game.js"></script>
+    <script src="./source/userInterface.js"></script>
+    <script src="./source/main.js"></script>
+    <script src="./source/translation.js"></script>
+    <! –– script for svg  ––>
+    <script defer src="font-awesome/js/all.js"></script> 
+    <script src="./source/randomise.js"></script>
+
+</body>
+
+</html>
