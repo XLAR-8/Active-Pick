@@ -1,5 +1,3 @@
-
-
 :root {
   --font-color: #424242;
   --bg-color: #f1f4fa;
@@ -78,7 +76,6 @@ body {
   background-color: var(--bg-color);
   color: var(--font-color);
 }
-/* ~need to compare: Content is ignored by screen readers but needs to be accessed :)*/
 .hide {
   display: none !important;
 }
@@ -532,15 +529,3 @@ green - #09e93c;
 yellow - #e9ac09;
 light gray - #F1F4FA
 */
-
-
-
-
-
-
-
-
-
-
-
-
