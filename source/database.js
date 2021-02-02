@@ -415,7 +415,7 @@ const iconDatabase = [
   { 
     name: "undefine"
     css: "fa fa-underline"
-  }
+  },
 ];
 
 const colorDatabase = ["pink", "blue", "green", "yellow"];
