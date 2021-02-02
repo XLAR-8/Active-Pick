@@ -412,6 +412,10 @@ const iconDatabase = [
     name: "umbrella",
     css: "fas fa-umbrella",
   },
+  { 
+    name: "undefine"
+    css: "fa fa-underline"
+  }
 ];
 
 const colorDatabase = ["pink", "blue", "green", "yellow"];
