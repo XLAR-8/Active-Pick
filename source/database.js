@@ -413,8 +413,8 @@ const iconDatabase = [
     css: "fas fa-umbrella",
   },
   { 
-    name: "undefine"
-    css: "fa fa-underline"
+    name: "undefine",
+    css: "fa fa-underline",
   },
 ];
 
